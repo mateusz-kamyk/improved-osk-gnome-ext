@@ -14,15 +14,15 @@ This extension is a fork of [luebke-dev/gnome-shell-extension-improve-osk](https
 
 ## Installation
 
-### From source code
-
-Clone the git repo
-
+1. Clone the git repo 
 ```console
 git clone https://github.com/mateusz-kamyk/improved-osk-gnome-ext.git ~/.local/share/gnome-shell/extensions/improvedosk@mkamyk.io
 ```
-
-reload gnome by pressing alt + F2 and enter r
+2. Enable extension
+```console
+gnome-extensions enable improvedosk@mkamyk.io
+```
+3. Reload gnome or reboot system
 
 ## FAQ
 
