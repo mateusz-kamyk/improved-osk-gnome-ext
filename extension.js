@@ -194,8 +194,6 @@ function override_keyvalPress(keyval) {
 function override_getDefaultKeysForRow(row, numRows, level) {
   let defaultKeysPreMod = [
     [
-      [{ label: "Esc", width: 1, keyval: Clutter.KEY_Escape }],
-      [{ label: "↹", width: 1.5, keyval: Clutter.KEY_Tab }],
       [
         {
           label: "⇑",
@@ -212,12 +210,6 @@ function override_getDefaultKeysForRow(row, numRows, level) {
           extraClassName: "control-key",
         },
         {
-          label: "◆",
-          width: 1,
-          keyval: Clutter.KEY_Super_L,
-          extraClassName: "super-key",
-        },
-        {
           label: "Alt",
           width: 1,
           keyval: Clutter.KEY_Alt_L,
@@ -226,8 +218,6 @@ function override_getDefaultKeysForRow(row, numRows, level) {
       ],
     ],
     [
-      [{ label: "Esc", width: 1, keyval: Clutter.KEY_Escape }],
-      [{ label: "↹", width: 1.5, keyval: Clutter.KEY_Tab }],
       [{ width: 1.5, level: 0, extraClassName: "shift-key-uppercase" }],
       [
         {
@@ -237,12 +227,6 @@ function override_getDefaultKeysForRow(row, numRows, level) {
           extraClassName: "control-key",
         },
         {
-          label: "◆",
-          width: 1,
-          keyval: Clutter.KEY_Super_L,
-          extraClassName: "super-key",
-        },
-        {
           label: "Alt",
           width: 1,
           keyval: Clutter.KEY_Alt_L,
@@ -251,9 +235,6 @@ function override_getDefaultKeysForRow(row, numRows, level) {
       ],
     ],
     [
-      [{ label: "Esc", width: 1, keyval: Clutter.KEY_Escape }],
-      [{ label: "↹", width: 1.5, keyval: Clutter.KEY_Tab }],
-      [{ label: "=/<F", width: 1.5, level: 3 }],
       [
         {
           label: "Ctrl",
@@ -262,12 +243,6 @@ function override_getDefaultKeysForRow(row, numRows, level) {
           extraClassName: "control-key",
         },
         {
-          label: "◆",
-          width: 1,
-          keyval: Clutter.KEY_Super_L,
-          extraClassName: "super-key",
-        },
-        {
           label: "Alt",
           width: 1,
           keyval: Clutter.KEY_Alt_L,
@@ -276,8 +251,6 @@ function override_getDefaultKeysForRow(row, numRows, level) {
       ],
     ],
     [
-      [{ label: "Esc", width: 1, keyval: Clutter.KEY_Escape }],
-      [{ label: "↹", width: 1.5, keyval: Clutter.KEY_Tab }],
       [{ label: "?123", width: 1.5, level: 2 }],
       [
         {
@@ -285,12 +258,6 @@ function override_getDefaultKeysForRow(row, numRows, level) {
           width: 1,
           keyval: Clutter.KEY_Control_L,
           extraClassName: "control-key",
-        },
-        {
-          label: "◆",
-          width: 1,
-          keyval: Clutter.KEY_Super_L,
-          extraClassName: "super-key",
         },
         {
           label: "Alt",
@@ -306,7 +273,6 @@ function override_getDefaultKeysForRow(row, numRows, level) {
     [
       [
         { label: "⌫", width: 1.5, keyval: Clutter.KEY_BackSpace },
-        { label: "⌦", width: 1, keyval: Clutter.KEY_Delete },
         { label: "⇊", width: 1, action: "hide", extraClassName: "hide-key" },
       ],
       [
@@ -315,13 +281,7 @@ function override_getDefaultKeysForRow(row, numRows, level) {
           width: 2,
           keyval: Clutter.KEY_Return,
           extraClassName: "enter-key",
-        },
-        {
-          label: "🗺",
-          width: 1.5,
-          action: "languageMenu",
-          extraClassName: "layout-key",
-        },
+        }
       ],
       [
         {
@@ -343,17 +303,10 @@ function override_getDefaultKeysForRow(row, numRows, level) {
     [
       [
         { label: "⌫", width: 1.5, keyval: Clutter.KEY_BackSpace },
-        { label: "⌦", width: 1, keyval: Clutter.KEY_Delete },
         { label: "⇊", width: 1, action: "hide", extraClassName: "hide-key" },
       ],
       [
         { width: 2, keyval: Clutter.KEY_Return, extraClassName: "enter-key" },
-        {
-          label: "🗺",
-          width: 1.5,
-          action: "languageMenu",
-          extraClassName: "layout-key",
-        },
       ],
       [
         {
@@ -374,7 +327,6 @@ function override_getDefaultKeysForRow(row, numRows, level) {
     [
       [
         { label: "⌫", width: 1.5, keyval: Clutter.KEY_BackSpace },
-        { label: "⌦", width: 1, keyval: Clutter.KEY_Delete },
         { label: "⇊", width: 1, action: "hide", extraClassName: "hide-key" },
       ],
       [
@@ -383,15 +335,8 @@ function override_getDefaultKeysForRow(row, numRows, level) {
           width: 2,
           keyval: Clutter.KEY_Return,
         },
-        {
-          label: "🗺",
-          width: 1.5,
-          action: "languageMenu",
-          extraClassName: "layout-key",
-        },
       ],
       [
-        { label: "=/<F", width: 3, level: 3, right: true },
         { label: "ABC", width: 1.5, level: 0 },
       ],
       [
@@ -419,12 +364,6 @@ function override_getDefaultKeysForRow(row, numRows, level) {
           width: 2,
           keyval: Clutter.KEY_Return,
           extraClassName: "enter-key",
-        },
-        {
-          label: "🗺",
-          width: 1.5,
-          action: "languageMenu",
-          extraClassName: "layout-key",
         },
       ],
       [
